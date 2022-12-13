@@ -1,7 +1,16 @@
 {
   "name": "haathee",
+  "author": "Erdeniz Korkmaz",
+  "description": "Haathee App",
   "version": "0.1.0",
   "private": true,
+  "license" : "MIT",
+  "homepage": "https://github.com/erdenizkorkmaz/haathee",
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,18 +18,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@fontsource/roboto": "^4.5.8",
-    "@styled-jsx/plugin-sass": "^4.0.2",
-    "@zeit/next-sass": "^1.0.1",
-    "autoprefixer": "^10.4.8",
-    "next": "12.2.4",
-    "postcss": "^8.4.14",
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.6",
+    "next": "13.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "8.21.0",
-    "eslint-config-next": "12.2.4",
-    "sass": "^1.54.3"
   }
 }

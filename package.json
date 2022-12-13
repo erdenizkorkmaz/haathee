@@ -4,7 +4,7 @@
   "description": "Haathee App",
   "version": "0.1.0",
   "private": true,
-  "license" : "MIT",
+  "license": "MIT",
   "homepage": "https://github.com/erdenizkorkmaz/haathee",
   "engines": {
     "node": ">=14.0.0",
@@ -15,7 +15,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "eslint": "8.29.0",
@@ -23,5 +25,9 @@
     "next": "13.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "husky": "^8.0.2",
+    "prettier": "^2.8.1"
   }
 }
